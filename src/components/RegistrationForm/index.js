@@ -85,6 +85,7 @@ class RegistrationForm extends Component {
         </label>
         <input
           type="text"
+          id="firstname"
           className={classname}
           placeholder="First name"
           onChange={this.onChangeFirst}
@@ -98,6 +99,7 @@ class RegistrationForm extends Component {
         </label>
         <input
           type="text"
+         id="lastname"
           className={classname}
           placeholder="Last name"
           onChange={this.onChangeLast}
